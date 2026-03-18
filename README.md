@@ -1,16 +1,13 @@
 # rick_and_morty_info
 
-A new Flutter project.
+## Необходимая версия flutter / dart
+Flutter - 3.38.4
+Dart - 3.10.3
 
-## Getting Started
+## Билд приложения
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Запустить команду ```flutter pub get```
+2. Запустить генерацию ```flutter pub run build_runner build --delete-conflicting-outputs``` 
+3. Сборка apk ```flutter build apk --release --split-per-abi```
+4. Сборка aab ```flutter build appbundle --release```
+5. Сборка ipa ```flutter build ipa --release```
